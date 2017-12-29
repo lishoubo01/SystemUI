@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="freeme_low_battery_flashlight_canot_use">Low Battery, Flashlight not available!</string>
+
+    <string name="freeme_normal">Sound</string>
+    <string name="freeme_vibrate">Vibrate</string>
+    <string name="freeme_silent">Silent</string>
+
+    <!-- @{ freeme.chenming, 20170731. Freeme Battery. -->
+    <string name="status_bar_settings_battery_meter_format"> %s </string>
+
+    <string name="freeme_data_connection">Data Connection</string>
+    <string name="freeme_screen_recorder">ScreenRecorder</string>
+    <string name="freeme_super_shot">SuperShot</string>
+
+    <string name="freeme_notification_settings">Notification settings</string>
+    <string name="freeme_notification">Notification </string>
+    <string name="freeme_notification_settings_manager">Notification manager</string>
+    <string name="freeme_notification_settings_text">noti setting</string>
+    <string name="freeme_tile_sort">Sort toggles</string>
+
+    <string name="freeme_statusbar">StatusBar</string>
+    <string name="freeme_battery_show">Show the Battery percent</string>
+    <string name="freeme_network_speed_show">Show current network speed</string>
+    <string name="freeme_show_notifications">Show notification icons</string>
+    <string name="freeme_forbidden_slide_statusbar">No slide on lock screen</string>
+
+    <string name="speed">%s/s</string>
+    <string name="byteShort">B</string>
+    <string name="kilobyteShort">K</string>
+    <string name="megabyteShort">M</string>
+    <string name="gigabyteShort">G</string>
+    <string name="terabyteShort">T</string>
+    <string name="petabyteShort">P</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+
+    <string name="freeme_notification_settings_text">Noti Setting</string>
+
+    <string name="quick_panel_data_usage">Data usage</string>
+</resources>

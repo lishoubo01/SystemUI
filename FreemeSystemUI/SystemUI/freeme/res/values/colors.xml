@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wifi_color">#4DFFFFFF</color>
+    <color name="freeme_tile_label_color">#252525</color>
+    <color name="freeme_tile_icon_off">#BABABA</color>
+    <color name="freeme_tile_icon_on">#22C4FF</color>
+    <color name="freeme_page_indicator_color">#252525</color>
+    <color name="freeme_edit_surface_color">@color/freeme_tile_icon_on</color>
+
+    <color name="freme_qs_header_icon_color">#666666</color>
+    <color name="freme_qs_brightness_icon_color">#505050</color>
+    <color name="freme_qs_dismiss_all_color">#505050</color>
+
+    <color name="freeme_qs_edit_mark_color">@color/freeme_tile_icon_on</color>
+    <color name="system_accent_color">#ff22c4ff</color>
+
+    <color name="freeme_navigation_bar_icon_color_black">#80000000</color>
+    <color name="freeme_navigation_bar_icon_luncher_color">#ffd5d5d5</color>
+
+    <color name="recents_close_all_button_text_color">#fffafafa</color>
+    <color name="recents_close_all_button_ripple_color">#29000000</color>
+    <color name="recents_close_all_button_bg">#5a000000</color>
+    <color name="recents_close_all_button_bg_outline">#40fafafa</color>
+
+    <color name="data_usage_text_color">@color/freeme_tile_label_color</color>
+</resources>

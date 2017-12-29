@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="freeme_low_battery_flashlight_canot_use">电量过低,  手电筒不可以使用!</string>
+
+    <string name="freeme_normal">声音</string>
+    <string name="freeme_silent">静音</string>
+    <string name="freeme_vibrate">振动</string>
+
+    <string name="freeme_data_connection">数据连接</string>
+    <string name="freeme_screen_recorder">屏幕录制</string>
+    <string name="freeme_super_shot">超级截屏</string>
+
+    <string name="freeme_notification_settings">通知栏设置</string>
+    <string name="freeme_notification">通知栏</string>
+    <string name="freeme_notification_settings_manager">通知管理</string>
+    <string name="freeme_notification_settings_text">通知设置</string>
+    <string name="freeme_tile_sort">开关排序</string>
+
+    <string name="freeme_statusbar">状态栏</string>
+    <string name="freeme_battery_show">显示电量</string>
+    <string name="freeme_network_speed_show">显示网速</string>
+    <string name="freeme_show_notifications">显示通知图标</string>
+    <string name="freeme_forbidden_slide_statusbar">锁屏禁止下拉状态栏</string>
+
+    <string name="quick_panel_data_usage">流量使用量</string>
+</resources>

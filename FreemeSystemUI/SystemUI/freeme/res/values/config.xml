@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="freeme_quick_settings_tiles" translatable="false">
+        audioprofile,dataconnection,supershot,location,hotspot,inversion,cast,work,night,custom(com.freeme.hongbaoassistant/.quicksettings.HongbaoQSTileService)
+    </string>
+
+    <integer name="freeme_qs_num_columns">5</integer>
+    <integer name="freeme_edit_num_columns">5</integer>
+
+</resources>

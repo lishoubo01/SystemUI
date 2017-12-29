@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal" >
+    <View
+        android:background="@color/freeme_tile_icon_off"
+        android:id="@+id/tile_divider"
+        android:layout_height="1px"
+        android:layout_width="fill_parent" />
+</LinearLayout>

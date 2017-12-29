@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- freeme.chenming, 20170813. Freeme Battery. -->
+    <style name="TextAppearance.StatusBar.Battery" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/freeme_status_bar_text_size</item>
+    </style>
+
+    <style name="Theme.SystemUI.Dialog.Brightness" parent="*freeme:Theme.Freeme.Light.Dialog">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.NetworkSpeed" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/freeme_status_bar_text_size</item>
+    </style>
+
+    <style name="Theme.SystemUI.Notification.Guts" parent="@*freeme:style/Theme.Freeme.Light">
+        <item name="android:colorAccent">@*android:color/notification_default_color</item>
+    </style>
+
+    <style name="TextAppearance.DataUsageView">
+        <item name="android:textSize">@dimen/data_usage_text_size</item>
+        <item name="android:textColor">@color/data_usage_text_color</item>
+    </style>
+</resources>

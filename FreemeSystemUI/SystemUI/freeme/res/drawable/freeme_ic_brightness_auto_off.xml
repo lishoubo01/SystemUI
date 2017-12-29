@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/freme_qs_brightness_icon_color"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M54,72 C44.059,72,36,63.941,36,54 C36,44.059,44.059,36,54,36
+C63.941,36,72,44.059,72,54 C72,63.941,63.941,72,54,72 Z M54,41 L54,67
+C61.18,67,67,61.18,67,54 C67,46.82,61.18,41,54,41 Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M76,57 L76,51 L84,51 L84,57 L76,57 Z M67.435,36.322 L73.092,30.665
+L77.335,34.908 L71.678,40.565 L67.435,36.322 Z M51,76 L57,76 L57,84 L51,84
+L51,76 Z M51,24 L57,24 L57,32 L51,32 L51,24 Z M30.665,73.092 L36.322,67.435
+L40.565,71.678 L34.908,77.335 L30.665,73.092 Z M30.665,34.908 L34.908,30.665
+L40.565,36.322 L36.322,40.565 L30.665,34.908 Z M32,57 L24,57 L24,51 L32,51
+L32,57 Z M77.335,73.092 L73.092,77.335 L67.435,71.678 L71.678,67.435
+L77.335,73.092 Z" />
+</vector>

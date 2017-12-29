@@ -1,0 +1,83 @@
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!-- Extends Framelayout -->
+<!-- freeme.gouzhouping, 20170908. customize dismiss view.
+  default:
+    android:paddingEnd="8dp"
+-->
+<com.android.systemui.statusbar.DismissView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="0dp"
+        android:visibility="gone">
+
+    <!-- {@ freeme.gouzhouping, 20170908. customize dismiss view.
+    <com.android.systemui.statusbar.DismissViewButton
+            style="@android:style/Widget.Material.Button.Borderless"
+            android:id="@+id/dismiss_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:focusable="true"
+            android:contentDescription="@string/accessibility_clear_all"
+            android:text="@string/clear_all_notifications_text"
+            android:textAllCaps="true"/>
+     -->
+    <LinearLayout
+        android:layout_height="32dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="?android:attr/colorBackground"
+        android:gravity="end|center">
+
+        <com.android.systemui.statusbar.DismissViewButton
+            android:id="@+id/notification_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentEnd="true"
+            android:focusable="true"
+            android:text="@string/freeme_notification_settings_text"
+            android:textSize="13dp"
+            android:textColor="@color/freme_qs_dismiss_all_color"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="@drawable/freeme_notification_bottom_bar_button_ripple_bg"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            android:gravity="center_vertical"/>
+        <com.android.systemui.statusbar.DismissViewButton
+            android:id="@+id/dismiss_text"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_toStartOf="@+id/notification_settings"
+            android:focusable="true"
+            android:contentDescription="@string/accessibility_clear_all"
+            android:text="@string/clear_all_notifications_text"
+            android:textSize="13dp"
+            android:textColor="@color/freme_qs_dismiss_all_color"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:background="@drawable/freeme_notification_bottom_bar_button_ripple_bg"
+            android:singleLine="true"
+            android:includeFontPadding="false"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <!-- @} -->
+</com.android.systemui.statusbar.DismissView>

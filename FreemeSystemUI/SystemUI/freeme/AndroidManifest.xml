@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.android.systemui"
+        android:sharedUserId="android.uid.systemui"
+        coreApp="true">
+
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT"/>
+
+    <application
+        android:name=".SystemUIApplication"
+        android:persistent="true"
+        android:allowClearUserData="false"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_label"
+        android:icon="@drawable/icon"
+        android:process="com.android.systemui"
+        android:supportsRtl="true"
+        android:theme="@style/systemui_theme"
+        android:defaultToDeviceProtectedStorage="true"
+        android:directBootAware="true">
+
+        <activity android:name="com.freeme.systemui.statusbar.FreemeStatusBarSettingsActivity"
+            android:configChanges="locale"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:theme="@*freeme:style/Theme.Freeme.Settings">
+            <intent-filter android:priority="8">
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data android:name="com.android.settings.title"
+                android:resource="@string/freeme_notification_settings" />
+            <meta-data android:name="com.android.settings.icon"
+                android:resource="@drawable/freeme_ic_settings_notifications" />
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:name="airplane_mode" 
+    android:height="72dp" 
+    android:width="72dp" 
+    android:viewportWidth="72" 
+    android:viewportHeight="72">
+    <group android:name="airplane_group1">
+        <path android:name="airplane_path1"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="4"
+        android:pathData="M64,47 L64,45 L41,27 L41,13.5 C41,11.01,38.99,9,36.5,9 C34.01,9,32,11.01,32,13.5
+L32,27 L9,45 L9,47 L32,40.5 L32,55 L26,61.5 L26,63 L36.5,61 L47,63 L47,61.5
+L41,55 L41,40.5 L64,47 L64,47 Z" />
+    </group>
+    <group android:name="airplane_group2">
+        <path android:name="airplane_path2"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="4"
+        android:pathData="M64,47 L64,45 L41,27 L41,13.5 C41,11.01,38.99,9,36.5,9 C34.01,9,32,11.01,32,13.5
+L32,27 L9,45 L9,47 L32,40.5 L32,55 L26,61.5 L26,63 L36.5,61 L47,63 L47,61.5
+L41,55 L41,40.5 L64,47 L64,47 Z"  android:fillAlpha="0.0" />
+    </group>
+</vector>

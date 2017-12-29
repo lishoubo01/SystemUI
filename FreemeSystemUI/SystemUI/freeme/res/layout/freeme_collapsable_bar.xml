@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.freeme.systemui.statusbar.policy.FreemeKeyButtonView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/freeme_collapsable_bar"
+    android:layout_width="@dimen/navigation_side_padding"
+    android:layout_height="match_parent"
+    android:layout_weight="0"
+    android:src="@drawable/ic_sysbar_collapsable_bar"
+    android:scaleType="center"
+    />

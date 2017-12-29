@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- freeme.chenming, 20170731. battery . -->
+    <dimen name="freeme_battery_inside_text_size">7dp</dimen>
+    <dimen name="freeme_status_bar_text_size">13dp</dimen>
+
+    <dimen name="freeme_task_header_margin_end">40dp</dimen>
+    <dimen name="freeme_network_padding_end">5dp</dimen>
+
+    <dimen name="qs_tile_between_icon_divider_marginbottom">6dp</dimen>
+    <dimen name="qs_tile_between_icon_divider_margintop">6dp</dimen>
+
+    <dimen name="recents_close_all_container_height">54.0dip</dimen>
+    <dimen name="recents_close_all_button_width">200.0dip</dimen>
+    <dimen name="recents_close_all_button_height">34.0dip</dimen>
+    <dimen name="recents_close_all_button_text_size">15.0sp</dimen>
+
+    <dimen name="freeme_network_padding_start">3dp</dimen>
+
+    <dimen name="data_usage_view_padding_bottom">1dp</dimen>
+    <dimen name="data_usage_view_padding_end">13dp</dimen>
+    <dimen name="data_usage_text_size">12dp</dimen>
+    <dimen name="data_usage_view_height">20dp</dimen>
+</resources>

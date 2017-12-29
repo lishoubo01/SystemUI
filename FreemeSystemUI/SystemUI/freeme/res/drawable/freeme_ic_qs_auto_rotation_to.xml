@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <group
+        android:name="arrows"
+        android:pivotX="36"
+        android:pivotY="36"
+        android:rotation="45">
+        <path
+            android:name="arrow_top"
+            android:pathData="M6.425,33.31 L6.574,33.459 L14.908,41.794 L12.476,44.225
+C13.624,47.687,15.561,50.932,18.305,53.676
+C22.608,57.979,28.141,60.306,33.814,60.7
+C33.814,60.7,36.214,60.271,37.505,61.562
+C38.345,62.402,38.438,63.71,37.792,64.677
+C37.792,64.677,37.813,65.692,36.361,65.705
+C35.94,65.822,35.501,65.828,35.081,65.72
+C27.686,65.63,20.363,62.805,14.769,57.211 C8.27,50.712,5.498,41.879,6.425,33.31
+Z"
+            android:fillColor="@android:color/white"/>
+        <path
+            android:name="arrow_bottom"
+            android:pathData="M64.977,38.123 L64.827,37.973 L56.418,29.563 L58.85,27.131
+C57.681,23.649,55.721,20.381,52.952,17.612
+C48.609,13.27,43.041,10.907,37.341,10.486
+C37.341,10.486,34.932,10.906,33.63,9.604 C32.782,8.756,32.683,7.442,33.327,6.473
+C33.327,6.473,33.301,5.453,34.76,5.447 C35.182,5.331,35.623,5.328,36.045,5.438
+C43.474,5.561,50.843,8.432,56.487,14.076
+C63.045,20.634,65.869,29.52,64.977,38.123 Z"
+            android:fillColor="@android:color/white"/>
+    </group>
+    <group
+        android:name="device"
+        android:pivotX="36"
+        android:pivotY="36"
+        android:rotation="45">
+        <path
+            android:name="path"
+            android:pathData="M60.749,43.778 L43.778,60.749 C42.997,61.53,41.731,61.53,40.95,60.749
+L11.251,31.05 C10.47,30.269,10.47,29.003,11.251,28.222 L28.222,11.251
+C29.003,10.47,30.269,10.47,31.05,11.251 L60.749,40.95
+C61.53,41.731,61.53,42.997,60.749,43.778 Z M29.636,16.908 L16.908,29.636
+L40.95,53.678 L53.678,40.95 L29.636,16.908 Z"
+            android:fillColor="@android:color/white"/>
+    </group>
+</vector>
